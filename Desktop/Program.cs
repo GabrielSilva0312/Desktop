@@ -27,7 +27,7 @@ namespace Desktop
 
             mutex = new Mutex(true, appName, out createdNew);
 
-            /*if (!createdNew)
+            if (!createdNew)
             {
                 MessageBox.Show("O programa já está sendo executado!", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 return;
@@ -60,7 +60,7 @@ namespace Desktop
             {
                 MessageBox.Show(pEx.Message, "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
-            }*/
+            }
 
             var Login = new FormLogin();
             Login.ShowDialog();

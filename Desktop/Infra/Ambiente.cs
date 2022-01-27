@@ -1,4 +1,5 @@
 ﻿using Desktop.Infra.Repository;
+using Desktop.Infra.ViewModel;
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
@@ -22,7 +23,7 @@ namespace Desktop.Infra
         public static bool IniciarNS = false;
         public static bool BalancaAutomatica = false;
 
-        //public static UsuarioViewModel DadosUsuarioLogado { get; set; }
+        public static UsuarioViewModel DadosUsuarioLogado { get; set; }
 
         public static bool SolicitarSenhaPermissoesInternas = false;
 

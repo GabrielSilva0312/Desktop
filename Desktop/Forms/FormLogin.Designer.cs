@@ -50,6 +50,7 @@
             this.cmdConfirmar.TabIndex = 1;
             this.cmdConfirmar.Text = "Confirmar";
             this.cmdConfirmar.UseVisualStyleBackColor = false;
+            this.cmdConfirmar.Click += new System.EventHandler(this.cmdConfirmar_Click);
             // 
             // grpDados
             // 
@@ -137,6 +138,7 @@
             this.Controls.Add(this.grpDados);
             this.Controls.Add(this.cmdConfirmar);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(280, 347);
             this.MinimizeBox = false;
@@ -145,6 +147,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.Load += new System.EventHandler(this.FormLogin_Load);
+            this.Enter += new System.EventHandler(this.FormLogin_Enter);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FormLogin_KeyDown);
             this.grpDados.ResumeLayout(false);
             this.grpDados.PerformLayout();
