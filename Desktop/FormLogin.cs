@@ -22,5 +22,20 @@ namespace Desktop
         private void FormLogin_Load(object sender, EventArgs e)
         {
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void FormLogin_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+                Close();
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
