@@ -44,7 +44,7 @@
             // 
             this.cmdConfirmar.BackColor = System.Drawing.Color.LightSteelBlue;
             this.cmdConfirmar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdConfirmar.Location = new System.Drawing.Point(60, 263);
+            this.cmdConfirmar.Location = new System.Drawing.Point(63, 259);
             this.cmdConfirmar.Name = "cmdConfirmar";
             this.cmdConfirmar.Size = new System.Drawing.Size(127, 33);
             this.cmdConfirmar.TabIndex = 1;
